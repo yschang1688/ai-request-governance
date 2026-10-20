@@ -1,0 +1,466 @@
+[
+ {
+  "template_id": "N01",
+  "department": "品保",
+  "topic": "外觀檢驗影像自動判定",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "test"
+ },
+ {
+  "template_id": "N02",
+  "department": "品保",
+  "topic": "客訴退貨原因自動分類",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N03",
+  "department": "品保",
+  "topic": "SOP 文件問答機器人",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "test"
+ },
+ {
+  "template_id": "N04",
+  "department": "製造",
+  "topic": "產線停機原因摘要",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "test"
+ },
+ {
+  "template_id": "N05",
+  "department": "製造",
+  "topic": "設備保養排程建議",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "test"
+ },
+ {
+  "template_id": "N06",
+  "department": "製造",
+  "topic": "良率異常即時告警",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "test"
+ },
+ {
+  "template_id": "N07",
+  "department": "研發材料",
+  "topic": "新材料配方性質預測",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N08",
+  "department": "研發材料",
+  "topic": "實驗紀錄自動整理",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N09",
+  "department": "研發材料",
+  "topic": "公開專利文獻摘要",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N10",
+  "department": "財務",
+  "topic": "費用報銷單據辨識",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N11",
+  "department": "財務",
+  "topic": "月結報表文字說明草稿",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N12",
+  "department": "財務",
+  "topic": "未公開季報數字預測",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "valid"
+ },
+ {
+  "template_id": "N13",
+  "department": "業務",
+  "topic": "客戶詢價信件分類",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N14",
+  "department": "業務",
+  "topic": "產品型錄翻譯",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N15",
+  "department": "業務",
+  "topic": "競品公開新聞彙整",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N16",
+  "department": "人資",
+  "topic": "履歷初篩",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N17",
+  "department": "人資",
+  "topic": "教育訓練教材問答",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N18",
+  "department": "人資",
+  "topic": "員工滿意度問卷歸納",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N19",
+  "department": "IT資安",
+  "topic": "資安事件日誌摘要",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N20",
+  "department": "IT資安",
+  "topic": "內部系統操作手冊問答",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "valid"
+ },
+ {
+  "template_id": "N21",
+  "department": "IT資安",
+  "topic": "帳號權限申請自動審核",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N22",
+  "department": "採購",
+  "topic": "供應商報價比對",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N23",
+  "department": "採購",
+  "topic": "採購規範條文查詢",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N24",
+  "department": "採購",
+  "topic": "交期延誤原因分析",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N25",
+  "department": "行政",
+  "topic": "會議紀錄自動摘要",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N26",
+  "department": "行政",
+  "topic": "公文範本產生",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N27",
+  "department": "行政",
+  "topic": "訪客登記資料整理",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "valid"
+ },
+ {
+  "template_id": "N28",
+  "department": "品保",
+  "topic": "量測數據 SPC 圖說明",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N29",
+  "department": "製造",
+  "topic": "工單排程最佳化",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N30",
+  "department": "研發材料",
+  "topic": "光譜圖比對",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N31",
+  "department": "財務",
+  "topic": "應收帳款逾期提醒",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N32",
+  "department": "業務",
+  "topic": "業務週報自動彙整",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N33",
+  "department": "人資",
+  "topic": "請假規則問答",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N34",
+  "department": "IT資安",
+  "topic": "弱點掃描報告分級",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N35",
+  "department": "採購",
+  "topic": "料號主檔清理",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N36",
+  "department": "行政",
+  "topic": "活動公告文案",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N37",
+  "department": "品保",
+  "topic": "出貨檢驗報告產生",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N38",
+  "department": "製造",
+  "topic": "作業員技能矩陣",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N39",
+  "department": "研發材料",
+  "topic": "BOM 替代料建議",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N40",
+  "department": "財務",
+  "topic": "預算編列格式檢查",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N41",
+  "department": "業務",
+  "topic": "公開展覽資訊整理",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N42",
+  "department": "人資",
+  "topic": "薪資結構分析",
+  "gold_light": "紅",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N43",
+  "department": "IT資安",
+  "topic": "伺服器監控告警摘要",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N44",
+  "department": "採購",
+  "topic": "公開市場原料價格追蹤",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "valid"
+ },
+ {
+  "template_id": "N45",
+  "department": "行政",
+  "topic": "辦公用品請購彙總",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N46",
+  "department": "製造",
+  "topic": "能源用電報表說明",
+  "gold_light": "黃",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N47",
+  "department": "研發材料",
+  "topic": "教科書公式查詢助手",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "N48",
+  "department": "品保",
+  "topic": "ISO 文件版本比對",
+  "gold_light": "綠",
+  "trap": "無",
+  "split": "train"
+ },
+ {
+  "template_id": "T01",
+  "department": "不限",
+  "topic": "陷阱：同詞異義",
+  "gold_light": "綠",
+  "trap": "同詞異義",
+  "split": "test"
+ },
+ {
+  "template_id": "T02",
+  "department": "不限",
+  "topic": "陷阱：同詞異義",
+  "gold_light": "綠",
+  "trap": "同詞異義",
+  "split": "train"
+ },
+ {
+  "template_id": "T03",
+  "department": "不限",
+  "topic": "陷阱：隱性機敏",
+  "gold_light": "紅",
+  "trap": "隱性機敏",
+  "split": "test"
+ },
+ {
+  "template_id": "T04",
+  "department": "不限",
+  "topic": "陷阱：隱性機敏",
+  "gold_light": "紅",
+  "trap": "隱性機敏",
+  "split": "train"
+ },
+ {
+  "template_id": "T05",
+  "department": "不限",
+  "topic": "陷阱：個資變形",
+  "gold_light": "紅",
+  "trap": "個資變形",
+  "split": "test"
+ },
+ {
+  "template_id": "T06",
+  "department": "不限",
+  "topic": "陷阱：個資變形",
+  "gold_light": "紅",
+  "trap": "個資變形",
+  "split": "train"
+ },
+ {
+  "template_id": "T07",
+  "department": "不限",
+  "topic": "陷阱：注入",
+  "gold_light": "紅",
+  "trap": "注入",
+  "split": "test"
+ },
+ {
+  "template_id": "T08",
+  "department": "不限",
+  "topic": "陷阱：注入",
+  "gold_light": "紅",
+  "trap": "注入",
+  "split": "train"
+ },
+ {
+  "template_id": "T09",
+  "department": "不限",
+  "topic": "陷阱：安全長單",
+  "gold_light": "綠",
+  "trap": "安全長單",
+  "split": "test"
+ },
+ {
+  "template_id": "T10",
+  "department": "不限",
+  "topic": "陷阱：安全長單",
+  "gold_light": "綠",
+  "trap": "安全長單",
+  "split": "train"
+ }
+]

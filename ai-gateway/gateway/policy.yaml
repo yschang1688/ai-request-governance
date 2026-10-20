@@ -1,0 +1,4 @@
+# ABAC 規則（G3 的預期表 tests/expected_matrix.yaml 依這份手算）
+levels: [green, yellow, red]          # 由低到高
+service_account_prefix: service-account-   # 服務帳號只看等級，不看專案
+write_scope: tickets.write             # 寫入動作需要這個 scope

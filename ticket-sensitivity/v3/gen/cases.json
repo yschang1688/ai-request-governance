@@ -1,0 +1,902 @@
+[
+{
+"kind": "系統路徑-黃",
+"gold_light": "黃",
+"id": "v3-001",
+"department": "生管",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-002",
+"department": "業務",
+"unit": "B 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-003",
+"department": "採購",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-004",
+"department": "生管",
+"unit": "品管處",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-005",
+"department": "生管",
+"unit": "A 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "自評誇大",
+"gold_light": "綠",
+"id": "v3-006",
+"department": "業務",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-007",
+"department": "採購",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-008",
+"department": "人資",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-009",
+"department": "業務",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-010",
+"department": "生管",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-011",
+"department": "品保",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-012",
+"department": "財務",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-013",
+"department": "製造",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-014",
+"department": "研發材料",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-015",
+"department": "行政",
+"unit": "B 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-016",
+"department": "品保",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-017",
+"department": "研發材料",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "自評誇大",
+"gold_light": "綠",
+"id": "v3-018",
+"department": "人資",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-019",
+"department": "IT資安",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-020",
+"department": "財務",
+"unit": "品管處",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-021",
+"department": "人資",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-022",
+"department": "品保",
+"unit": "B 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-黃",
+"gold_light": "黃",
+"id": "v3-023",
+"department": "業務",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-024",
+"department": "IT資安",
+"unit": "A 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-025",
+"department": "業務",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般路徑-綠",
+"gold_light": "綠",
+"id": "v3-026",
+"department": "行政",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-027",
+"department": "財務",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-028",
+"department": "生管",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-029",
+"department": "採購",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-030",
+"department": "生管",
+"unit": "品管處",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-031",
+"department": "人資",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般路徑-綠",
+"gold_light": "綠",
+"id": "v3-032",
+"department": "行政",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-033",
+"department": "行政",
+"unit": "品管處",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-034",
+"department": "製造",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-黃",
+"gold_light": "黃",
+"id": "v3-035",
+"department": "研發材料",
+"unit": "B 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-036",
+"department": "IT資安",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-037",
+"department": "行政",
+"unit": "B 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-038",
+"department": "財務",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-039",
+"department": "業務",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-040",
+"department": "研發材料",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-041",
+"department": "生管",
+"unit": "品管處",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-042",
+"department": "人資",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-043",
+"department": "採購",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-044",
+"department": "業務",
+"unit": "品管處",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-045",
+"department": "研發材料",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-046",
+"department": "研發材料",
+"unit": "品管處",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-047",
+"department": "業務",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-048",
+"department": "研發材料",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-049",
+"department": "品保",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-050",
+"department": "人資",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "自評誇大",
+"gold_light": "綠",
+"id": "v3-051",
+"department": "IT資安",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-052",
+"department": "業務",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-053",
+"department": "IT資安",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-054",
+"department": "品保",
+"unit": "A 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-055",
+"department": "製造",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-056",
+"department": "研發材料",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-057",
+"department": "採購",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般路徑-綠",
+"gold_light": "綠",
+"id": "v3-058",
+"department": "品保",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-059",
+"department": "財務",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-060",
+"department": "採購",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-061",
+"department": "品保",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-062",
+"department": "品保",
+"unit": "B 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-063",
+"department": "製造",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-064",
+"department": "IT資安",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般路徑-綠",
+"gold_light": "綠",
+"id": "v3-065",
+"department": "IT資安",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-066",
+"department": "財務",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-067",
+"department": "採購",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-068",
+"department": "採購",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-069",
+"department": "生管",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-070",
+"department": "財務",
+"unit": "A 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般路徑-綠",
+"gold_light": "綠",
+"id": "v3-071",
+"department": "品保",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-072",
+"department": "研發材料",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-黃",
+"gold_light": "黃",
+"id": "v3-073",
+"department": "研發材料",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-074",
+"department": "製造",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-075",
+"department": "人資",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-076",
+"department": "行政",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "紅",
+"id": "v3-077",
+"department": "品保",
+"unit": "A 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-078",
+"department": "人資",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般路徑-綠",
+"gold_light": "綠",
+"id": "v3-079",
+"department": "製造",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-080",
+"department": "業務",
+"unit": "A 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-081",
+"department": "生管",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-082",
+"department": "生管",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-黃",
+"gold_light": "黃",
+"id": "v3-083",
+"department": "行政",
+"unit": "B 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-084",
+"department": "人資",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-085",
+"department": "製造",
+"unit": "A 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "自評誇大",
+"gold_light": "綠",
+"id": "v3-086",
+"department": "研發材料",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "自評誇大",
+"gold_light": "綠",
+"id": "v3-087",
+"department": "品保",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-088",
+"department": "生管",
+"unit": "品管處",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-089",
+"department": "業務",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "自評誇大",
+"gold_light": "綠",
+"id": "v3-090",
+"department": "業務",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "opus"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-091",
+"department": "行政",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-092",
+"department": "行政",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-093",
+"department": "IT資安",
+"unit": "A 廠",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "一般",
+"gold_light": "黃",
+"id": "v3-094",
+"department": "研發材料",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-095",
+"department": "財務",
+"unit": "A 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-096",
+"department": "生管",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "系統路徑-黃",
+"gold_light": "黃",
+"id": "v3-097",
+"department": "採購",
+"unit": "品管處",
+"self_report": "黃",
+"writer": "sonnet"
+},
+{
+"kind": "自評淡化",
+"gold_light": "紅",
+"id": "v3-098",
+"department": "財務",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+},
+{
+"kind": "一般",
+"gold_light": "綠",
+"id": "v3-099",
+"department": "IT資安",
+"unit": "B 廠",
+"self_report": "綠",
+"writer": "sonnet"
+},
+{
+"kind": "系統路徑-紅",
+"gold_light": "紅",
+"id": "v3-100",
+"department": "品保",
+"unit": "B 廠",
+"self_report": "紅",
+"writer": "opus"
+}
+]

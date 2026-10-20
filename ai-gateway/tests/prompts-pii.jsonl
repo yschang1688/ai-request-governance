@@ -1,0 +1,40 @@
+{"id": "P01", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "請幫我查 A123456789 這位同仁的教育訓練紀錄", "pii": ["A123456789"]}
+{"id": "P02", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "報修人身分證字號 F223344556，請確認是否已建檔", "pii": ["F223344556"]}
+{"id": "P03", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "新進人員 K134679258 的門禁卡還沒開通", "pii": ["K134679258"]}
+{"id": "P04", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "請把 B287654321 從專案成員名單移除", "pii": ["B287654321"]}
+{"id": "P05", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "核對資料：身分證 H198273645，到職日 3 月", "pii": ["H198273645"]}
+{"id": "P06", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "訪客登記寫的是 P212121212，請比對", "pii": ["P212121212"]}
+{"id": "P07", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "小寫輸入的 e123987456 也請一併查詢", "pii": ["e123987456"]}
+{"id": "P08", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "證號 R 2 4 6 8 1 3 5 7 9 是空格分開輸入的", "pii": ["R 2 4 6 8 1 3 5 7 9"]}
+{"id": "P09", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "請回電 0912345678 確認交期", "pii": ["0912345678"]}
+{"id": "P10", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "聯絡人手機 0933-221-110，下午都在", "pii": ["0933-221-110"]}
+{"id": "P11", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "司機電話 0955 667 788，請轉給倉管", "pii": ["0955 667 788"]}
+{"id": "P12", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "全形輸入：０９２８１１２２３３，請建檔", "pii": ["０９２８１１２２３３"]}
+{"id": "P13", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "海外同仁號碼 +886 912 000 111，請加入群組", "pii": ["+886 912 000 111"]}
+{"id": "P14", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "另一支 +886-987-654-321 是備用", "pii": ["+886-987-654-321"]}
+{"id": "P15", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "口述的號碼零九七一二三四五六七八請記下", "pii": ["零九七一二三四五六七八"]}
+{"id": "P16", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "維修窗口 0966123987 已離職，請改人", "pii": ["0966123987"]}
+{"id": "P17", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "簡訊通知 0919-876543 這支", "pii": ["0919-876543"]}
+{"id": "P18", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "緊急聯絡 0900111222，夜班可打", "pii": ["0900111222"]}
+{"id": "P19", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "請寄報表給 lin.wei@example.test", "pii": ["lin.wei@example.test"]}
+{"id": "P20", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "供應商窗口 sales_tw@vendor-demo.test 要報價", "pii": ["sales_tw@vendor-demo.test"]}
+{"id": "P21", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "把會議紀錄轉給 qa.team+weekly@corp-demo.test", "pii": ["qa.team+weekly@corp-demo.test"]}
+{"id": "P22", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "帳號 chen88@mail.demo.test 無法登入", "pii": ["chen88@mail.demo.test"]}
+{"id": "P23", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "請加 HR 信箱 hr-service@example.test 為副本", "pii": ["hr-service@example.test"]}
+{"id": "P24", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "外包 dev.ops@partner.test 需要 VPN", "pii": ["dev.ops@partner.test"]}
+{"id": "P25", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "回覆給 ann_wu@example.test 就好", "pii": ["ann_wu@example.test"]}
+{"id": "P26", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "大寫寫法 TOM.LEE@EXAMPLE.TEST 也是同一人", "pii": ["TOM.LEE@EXAMPLE.TEST"]}
+{"id": "P27", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "請開發票，統編：24681357", "pii": ["24681357"]}
+{"id": "P28", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "客戶統一編號 13572468，請更新主檔", "pii": ["13572468"]}
+{"id": "P29", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "統編12345670 已停業，請確認", "pii": ["12345670"]}
+{"id": "P30", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "這家公司的統編為 87654321，請查信用額度", "pii": ["87654321"]}
+{"id": "P31", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "發票抬頭與統一編號（11223344）不符", "pii": ["11223344"]}
+{"id": "P32", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "總機 02-2345-6789 轉 123", "pii": ["02-2345-6789"]}
+{"id": "P33", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "新竹廠電話 (03)578-1234", "pii": ["(03)578-1234"]}
+{"id": "P34", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "台中辦公室 04 2233 4455，週六不上班", "pii": ["04 2233 4455"]}
+{"id": "P35", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "傳真 07-3456789 請改用 email", "pii": ["07-3456789"]}
+{"id": "P36", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "王先生 A223456781，手機 0911223344，信箱 wang@example.test，請三項都建檔", "pii": ["A223456781", "0911223344", "wang@example.test"]}
+{"id": "P37", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "0922333444 打不通，請改撥 0922333444 的分機", "pii": ["0922333444"]}
+{"id": "P38", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "統編：55667788 的聯絡人是 kao@vendor-demo.test，電話 02-8765-4321", "pii": ["55667788", "kao@vendor-demo.test", "02-8765-4321"]}
+{"id": "P39", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "身分證 M156789012 與 M156789012 重複登錄兩次", "pii": ["M156789012"]}
+{"id": "P40", "user": "u-yellow", "project": "P-A", "level": "yellow", "prompt": "請把 0977-000-123 和 lee.k@example.test 從通知名單拿掉", "pii": ["0977-000-123", "lee.k@example.test"]}

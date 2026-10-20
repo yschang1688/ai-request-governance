@@ -1,0 +1,2 @@
+# 合成測試資料：注入陷阱題刻意放的假金鑰樣字串（T07-10），不是真的金鑰
+ticket-sensitivity/data/test-meta.jsonl:stripe-access-token:90

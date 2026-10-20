@@ -1,0 +1,51 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  ticket-sensitivity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 格式規則與反向檢核
+        working-directory: ticket-sensitivity
+        run: python test_rules.py
+      - name: 系統路徑規則
+        working-directory: ticket-sensitivity/v3
+        run: python test_syspath.py
+      - name: 評分器自證
+        working-directory: ticket-sensitivity/v3
+        run: python score3.py --selftest
+
+  ai-gateway:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ai-gateway
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 產生本次執行用的隨機 secret（不進 repo）
+        run: |
+          {
+            echo "KC_BOOTSTRAP_ADMIN_USERNAME=admin"
+            for k in KC_BOOTSTRAP_ADMIN_PASSWORD DEMO_PORTAL_SECRET DEMO_AGENT_SECRET DEMO_GATEWAY_SECRET DEMO_API_SECRET DEMO_USER_PW; do
+              echo "$k=$(openssl rand -hex 16)"
+            done
+          } > .env.local
+      - name: 啟動 Keycloak（匯入 demo realm）
+        run: |
+          docker compose up -d
+          for i in $(seq 1 90); do curl -sf -o /dev/null http://127.0.0.1:8080/realms/demo && exit 0; sleep 2; done
+          docker compose logs; exit 1
+      - run: pip install -r requirements.txt
+      - name: realm 煙霧測試
+        run: python -I realm/check_realm.py
+      - name: G1–G10＋G5b 與反向檢核
+        run: python run_gates.py

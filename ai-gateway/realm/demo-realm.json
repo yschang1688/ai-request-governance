@@ -1,0 +1,476 @@
+{
+  "realm": "demo",
+  "enabled": true,
+  "accessTokenLifespan": 300,
+  "attributes": {
+    "unmanagedAttributePolicy": "ENABLED"
+  },
+  "roles": {
+    "realm": [
+      {
+        "name": "auditor",
+        "description": "可查稽核日誌"
+      }
+    ]
+  },
+  "defaultDefaultClientScopes": [
+    "basic",
+    "roles"
+  ],
+  "clientScopes": [
+    {
+      "name": "org-attrs",
+      "protocol": "openid-connect",
+      "attributes": {
+        "include.in.token.scope": "false"
+      },
+      "protocolMappers": [
+        {
+          "name": "dept",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "config": {
+            "user.attribute": "dept",
+            "claim.name": "dept",
+            "jsonType.label": "String",
+            "multivalued": "false",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true",
+            "id.token.claim": "false",
+            "userinfo.token.claim": "false"
+          }
+        },
+        {
+          "name": "clearance",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "config": {
+            "user.attribute": "clearance",
+            "claim.name": "clearance",
+            "jsonType.label": "String",
+            "multivalued": "false",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true",
+            "id.token.claim": "false",
+            "userinfo.token.claim": "false"
+          }
+        },
+        {
+          "name": "projects",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "config": {
+            "user.attribute": "projects",
+            "claim.name": "projects",
+            "jsonType.label": "String",
+            "multivalued": "true",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true",
+            "id.token.claim": "false",
+            "userinfo.token.claim": "false"
+          }
+        },
+        {
+          "name": "username",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "config": {
+            "user.attribute": "username",
+            "claim.name": "preferred_username",
+            "jsonType.label": "String",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "name": "internal-api-aud",
+      "protocol": "openid-connect",
+      "attributes": {
+        "include.in.token.scope": "true"
+      },
+      "protocolMappers": [
+        {
+          "name": "aud-internal-api",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "config": {
+            "included.client.audience": "internal-api",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "name": "basic",
+      "protocol": "openid-connect",
+      "attributes": {
+        "include.in.token.scope": "false"
+      },
+      "protocolMappers": [
+        {
+          "name": "sub",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-sub-mapper",
+          "config": {
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "name": "roles",
+      "protocol": "openid-connect",
+      "attributes": {
+        "include.in.token.scope": "false"
+      },
+      "protocolMappers": [
+        {
+          "name": "realm roles",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-realm-role-mapper",
+          "config": {
+            "claim.name": "realm_access.roles",
+            "jsonType.label": "String",
+            "multivalued": "true",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        },
+        {
+          "name": "client roles",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-client-role-mapper",
+          "config": {
+            "claim.name": "resource_access.${client_id}.roles",
+            "jsonType.label": "String",
+            "multivalued": "true",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        },
+        {
+          "name": "audience resolve",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-resolve-mapper",
+          "config": {
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tickets.read",
+      "protocol": "openid-connect",
+      "attributes": {
+        "include.in.token.scope": "true",
+        "display.on.consent.screen": "false"
+      }
+    },
+    {
+      "name": "tickets.write",
+      "protocol": "openid-connect",
+      "attributes": {
+        "include.in.token.scope": "true",
+        "display.on.consent.screen": "false"
+      }
+    }
+  ],
+  "clients": [
+    {
+      "clientId": "portal",
+      "secret": "${DEMO_PORTAL_SECRET}",
+      "publicClient": false,
+      "directAccessGrantsEnabled": true,
+      "standardFlowEnabled": true,
+      "redirectUris": [
+        "http://127.0.0.1:8090/*"
+      ],
+      "defaultClientScopes": [
+        "basic",
+        "org-attrs",
+        "roles",
+        "tickets.read"
+      ],
+      "protocolMappers": [
+        {
+          "name": "aud-gateway",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "config": {
+            "included.client.audience": "ai-gateway",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        },
+        {
+          "name": "aud-agent",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "config": {
+            "included.client.audience": "ticket-agent",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "clientId": "portal-noaud",
+      "secret": "${DEMO_PORTAL_SECRET}",
+      "publicClient": false,
+      "directAccessGrantsEnabled": true,
+      "standardFlowEnabled": false,
+      "defaultClientScopes": [
+        "basic",
+        "org-attrs",
+        "roles"
+      ]
+    },
+    {
+      "clientId": "portal-short",
+      "secret": "${DEMO_PORTAL_SECRET}",
+      "publicClient": false,
+      "directAccessGrantsEnabled": true,
+      "standardFlowEnabled": false,
+      "attributes": {
+        "access.token.lifespan": "3"
+      },
+      "defaultClientScopes": [
+        "basic",
+        "org-attrs",
+        "roles"
+      ],
+      "protocolMappers": [
+        {
+          "name": "aud-gateway",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "config": {
+            "included.client.audience": "ai-gateway",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "clientId": "ticket-agent",
+      "secret": "${DEMO_AGENT_SECRET}",
+      "publicClient": false,
+      "serviceAccountsEnabled": true,
+      "standardFlowEnabled": false,
+      "attributes": {
+        "standard.token.exchange.enabled": "true"
+      },
+      "defaultClientScopes": [
+        "basic",
+        "org-attrs",
+        "roles",
+        "tickets.read"
+      ],
+      "optionalClientScopes": [
+        "internal-api-aud"
+      ],
+      "protocolMappers": [
+        {
+          "name": "aud-internal-api-sa",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "config": {
+            "included.client.audience": "internal-api",
+            "access.token.claim": "true",
+            "introspection.token.claim": "true"
+          }
+        }
+      ]
+    },
+    {
+      "clientId": "ai-gateway",
+      "secret": "${DEMO_GATEWAY_SECRET}",
+      "publicClient": false,
+      "standardFlowEnabled": false
+    },
+    {
+      "clientId": "internal-api",
+      "secret": "${DEMO_API_SECRET}",
+      "publicClient": false,
+      "standardFlowEnabled": false
+    }
+  ],
+  "users": [
+    {
+      "username": "u-green",
+      "enabled": true,
+      "email": "u-green@example.test",
+      "emailVerified": true,
+      "firstName": "u-green",
+      "lastName": "demo",
+      "attributes": {
+        "dept": [
+          "製造"
+        ],
+        "clearance": [
+          "green"
+        ],
+        "projects": [
+          "P-A"
+        ]
+      },
+      "realmRoles": [
+        "default-roles-demo"
+      ],
+      "requiredActions": [],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${DEMO_USER_PW}",
+          "temporary": false
+        }
+      ]
+    },
+    {
+      "username": "u-yellow",
+      "enabled": true,
+      "email": "u-yellow@example.test",
+      "emailVerified": true,
+      "firstName": "u-yellow",
+      "lastName": "demo",
+      "attributes": {
+        "dept": [
+          "品保"
+        ],
+        "clearance": [
+          "yellow"
+        ],
+        "projects": [
+          "P-A",
+          "P-B"
+        ]
+      },
+      "realmRoles": [
+        "default-roles-demo"
+      ],
+      "requiredActions": [],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${DEMO_USER_PW}",
+          "temporary": false
+        }
+      ]
+    },
+    {
+      "username": "u-red",
+      "enabled": true,
+      "email": "u-red@example.test",
+      "emailVerified": true,
+      "firstName": "u-red",
+      "lastName": "demo",
+      "attributes": {
+        "dept": [
+          "研發"
+        ],
+        "clearance": [
+          "red"
+        ],
+        "projects": [
+          "P-B"
+        ]
+      },
+      "realmRoles": [
+        "default-roles-demo"
+      ],
+      "requiredActions": [],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${DEMO_USER_PW}",
+          "temporary": false
+        }
+      ]
+    },
+    {
+      "username": "u-auditor",
+      "enabled": true,
+      "email": "u-auditor@example.test",
+      "emailVerified": true,
+      "firstName": "u-auditor",
+      "lastName": "demo",
+      "attributes": {
+        "dept": [
+          "資安"
+        ],
+        "clearance": [
+          "none"
+        ],
+        "projects": []
+      },
+      "realmRoles": [
+        "default-roles-demo",
+        "auditor"
+      ],
+      "requiredActions": [],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${DEMO_USER_PW}",
+          "temporary": false
+        }
+      ]
+    },
+    {
+      "username": "u-mfa",
+      "enabled": true,
+      "email": "u-mfa@example.test",
+      "emailVerified": true,
+      "firstName": "u-mfa",
+      "lastName": "demo",
+      "attributes": {
+        "dept": [
+          "研發"
+        ],
+        "clearance": [
+          "green"
+        ],
+        "projects": [
+          "P-A"
+        ]
+      },
+      "realmRoles": [
+        "default-roles-demo"
+      ],
+      "requiredActions": [
+        "CONFIGURE_TOTP"
+      ],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "${DEMO_USER_PW}",
+          "temporary": false
+        }
+      ]
+    },
+    {
+      "username": "service-account-ticket-agent",
+      "enabled": true,
+      "serviceAccountClientId": "ticket-agent",
+      "attributes": {
+        "dept": [
+          "系統"
+        ],
+        "clearance": [
+          "green"
+        ],
+        "projects": []
+      },
+      "realmRoles": [
+        "default-roles-demo"
+      ]
+    }
+  ]
+}

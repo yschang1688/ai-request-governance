@@ -1,0 +1,8 @@
+[
+  {"id": "T-A-G", "project": "P-A", "level": "green",  "title": "會議室預約系統改版需求"},
+  {"id": "T-A-Y", "project": "P-A", "level": "yellow", "title": "產線良率週報自動彙整"},
+  {"id": "T-A-R", "project": "P-A", "level": "red",    "title": "新配方試產資料比對"},
+  {"id": "T-B-G", "project": "P-B", "level": "green",  "title": "分機表查詢助理"},
+  {"id": "T-B-Y", "project": "P-B", "level": "yellow", "title": "出貨量異常提醒"},
+  {"id": "T-B-R", "project": "P-B", "level": "red",    "title": "客戶報價單摘要"}
+]

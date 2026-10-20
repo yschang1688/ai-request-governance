@@ -1,0 +1,13 @@
+# G3 預期權限表（手寫，在寫 Gateway 之前 commit，之後不得依程式結果修改）
+# 規則：使用者等級 >= 資料等級，而且資料的專案在使用者的專案清單內，兩者都成立才 allow。
+# 使用者：u-green（綠，P-A）、u-yellow（黃，P-A＋P-B）、u-red（紅，P-B）
+# 刻意的一格：u-red 等級最高，但不屬於 P-A，所以 P-A 連綠燈都 deny（專案優先於等級）。
+u-green:
+  P-A: {green: allow, yellow: deny, red: deny}
+  P-B: {green: deny,  yellow: deny, red: deny}
+u-yellow:
+  P-A: {green: allow, yellow: allow, red: deny}
+  P-B: {green: allow, yellow: allow, red: deny}
+u-red:
+  P-A: {green: deny,  yellow: deny,  red: deny}
+  P-B: {green: allow, yellow: allow, red: allow}
